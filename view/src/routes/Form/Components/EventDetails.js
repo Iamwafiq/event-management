@@ -15,7 +15,7 @@ class EventDetails extends React.Component {
   componentDidMount(){
     const authToken= window.localStorage.getItem('token');
     if(!authToken){
-      window.location.assign('/login')
+      window.location.assign('/')
     }
   }
 
